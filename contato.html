@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula HTML/ CSS </title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body bgcolor="lightblue" background="">
+
+    <nav>
+        <ul>
+            <li><a href="index.html" target="_top">INICIO</a></li>
+            <li><a href="servicos.html" target="_top">SERVICOS</a></li>
+            <li><a href="sobre.html" target="_top">SOBRE</a></li>
+            <li><a href="contato.html" target="_top">CONTATO</a></li>
+        </ul>
+
+
+        <main>
+            <div class="row">
+                <h2 align="center">
+                    <font color="black"> Cadastre e entre em contato conosco </font>
+                </h2>
+            </div>
+            <div class="row">
+                <br><br />
+                <form action="" method="post">
+                    <label> NOME: </label>
+                    <input type="text" name="nome" id="nome" maxlength="80" size="30" placeholder="Digite seu Nome"
+                        required>
+                    <br><br />
+                    <label> E-MAIL:</label>
+                    <input type="email" name="mail" id="mail" maxlength="80" size="30" placeholder="Digite seu E-mail"
+                        required>
+                    <br><br />
+                    <label> TELEFONE:</label>
+                    <input type="tel" name="fone" id="fone" maxlength="80" size="30" placeholder="Digite seu Telefone"
+                        required>
+                    <br><br />
+                    <label> DATA DE NASCIMENTO:</label>
+                    <input type="date" name="data_nasc" id="data_nasc" min="1900-01-01" max="2006-06-25" />
+                    <br><br />
+                    <label> SENHA:</label>
+                    <input type="password" name=" senha " id=" senha " maxlength="60" size="30"
+                        placeholder="Informe uma Senha " required>
+                    
+                    <br /> <br />
+                    <label><strong> Participe das discussões em nossa comunidade e fique por dentro das tendências e
+                        atualizações mais recentes. </strong> </label>
+                    <br><br />
+                    <textarea name="coment" id="coment" cols="40" rows="10" maxlength="200"
+                        placeholder=" Digite Seu Comentario" required></textarea>
+                    <br /> <br />
+                    <input type="submit" value="enviar" id="enviar" value="ENVIAR">
+                    <input type="submit" value="limpar" id="limpar" value="LIMPAR">
+                    <input type="submit" value="resert" id="resert" value="resert">
+
+                </form>
+
+         
+        </div class="row">
+
+
+
+            </div>
+        </main>
+
+
+</body>
+
+</html>
